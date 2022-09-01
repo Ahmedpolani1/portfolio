@@ -406,7 +406,10 @@ img {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
-
+P{    
+  font-family: 'FontAwesome';
+  font-weight: 900;
+}
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
@@ -416,10 +419,7 @@ img {
     width: 200px;
   }
 }
-.fa-solid, .fas {
-    font-family: sans-serif;
-    font-weight: 900;
-}
+
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
